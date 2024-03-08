@@ -39,6 +39,8 @@
 **/reflect-cpp-tests
 **/build/**
 **/build_clang/**
+Testing
+CMakeUserPresets.json
 
 # Output files
 *.bson
@@ -59,3 +61,15 @@
 # clangd
 compile_flags.txt
 compile_commands.json
+
+/build
+
+# nix-direnv
+/.direnv
+
+# pre-commit-hooks.nix
+/.pre-commit-config.yaml
+
+.cache
+.DS_Store
+
